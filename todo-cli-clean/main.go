@@ -21,8 +21,6 @@ func main() {
 		return
 	}
 
-	fmt.Printf("%+v\n", storage)
-
 	commands.ExecuteFlags(&storage, os.Args[1:])
 
 	// Перезаписываем файл, с измененными данными каждый раз после завершения работы
