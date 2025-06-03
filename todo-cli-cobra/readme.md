@@ -8,7 +8,7 @@ Stylized output using custom color utilities for a better terminal experience.
 Make sure you have Go installed (`go version`), then run:
 
 ```bash
-git clone https://github.com/yourusername/todo-cli.git
+git clone https://github.com/maxh1337/todo-cli.git
 cd todo-cli
 go build -o todo
 ```
